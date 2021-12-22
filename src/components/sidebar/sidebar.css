@@ -1,0 +1,133 @@
+.sidebar{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    height: 100%;
+    margin: 20px;
+    position: sticky;
+    top: 50px;
+}
+
+.sidebar__recent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.title{
+    margin: 10px 0;
+    font-size: 15x;
+    font-weight: 600;
+    color: #222;
+    padding: 5px 0px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #a7a4a4;
+}
+
+.recent{
+    display: flex;
+    align-items: center;
+    transition: .5s ease;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.recent:hover{
+    background: gainsboro;
+}
+
+.recent img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.recent__wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; 
+}
+
+.recent__user__name{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.recent__post__title{
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.sidebarTitle{
+    margin: 10px 0;
+    font-size: 15x;
+    font-weight: 600;
+    color: #222;
+    padding: 5px;
+    width: 80%;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+}
+
+
+.sidebarItem > img{
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.sidebarItem > p{
+    padding: 30px;
+}
+
+.sidebarList{
+    list-style: none;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebarListItem{
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    padding: 5px 20px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,119 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+}
+
+.profile__header p:nth-child(1){
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.profile__header p:nth-child(2){
+    font-size: 15px;
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.profile__content{
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile__content__Container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.profile__content__Container p:nth-child(1){
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.profile__content__Container p:nth-child(2){
+    font-size: 12px;
+    color: gray;  
+    margin-right: 20px; 
+    line-height: 20px;
+}
+.profile__content__Container p:nth-child(3){
+    font-size: 12px;
+    color: gray;  
+    margin-right: 20px; 
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.profile__content label{
+    width: 50%;
+    border: 1px solid #e5e5e5;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.profile__content input{
+    display: flex;
+    width: 50%;
+    padding: 5px 8px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    color: gray;
+    border-radius: 5px;
+}
+
+.profile__content textarea{
+    display: flex;
+    width: 50%;
+    padding: 5px 8px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 150px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    color: gray;
+    border-radius: 5px;
+    resize: none;
+}
+
+.profile__social__header{
+    border-bottom:  1px solid #e5e5e5;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.profile__content__Container__links{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 10px;
+
+}
+
+.profile__content__Container__links p:nth-child(1){
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.profile__content__Container__links p:nth-child(2){
+    font-size: 12px;
+    color: gray;  
+    margin-right: 20px; 
+    line-height: 20px;
+}

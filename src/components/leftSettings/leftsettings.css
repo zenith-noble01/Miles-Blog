@@ -1,0 +1,49 @@
+.leftSettings{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+    position: sticky;
+    top: 50px;
+    height: 200px;
+}
+
+.settingList{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+}
+
+.settingtList__item{
+    display: flex;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: gray;
+    transition: .3s ease;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.settingtList__item:hover{
+    background: white;
+}
+
+.not{
+    color: #333;
+    cursor:auto;
+}
+
+.not:hover{
+    background: none;
+}
+
+/* {/* <Route path={`${path}/classes`}>
+<Classes />
+</Route> */
+
+/* <Link to={`${url}/result`} className="td">
+    <Class className="sidebarIcon" />Result
+</Link> * */

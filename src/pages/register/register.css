@@ -1,0 +1,82 @@
+.register{
+    background: url(../../components/images/back.jpg);
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.2);
+    padding: 20px 30px;
+    transition: .5s ease;
+    border-radius: 10px;
+
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    color: whitesmoke;
+}
+
+
+
+
+.registerEmailBtn{
+    margin: 10px 0;
+}
+
+.registerInput{
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.registerBtn{
+    padding: 10px 40px;
+    align-self: center;
+    display: flex;
+    border: none;
+    background: whites;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.registerBtn:hover{
+    background: rgb(212, 211, 211);
+}
+
+
+.registerRegisterBtn{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.registerRegisterBtn > p{
+    color: whitesmoke;
+}
+
+.registerRegBtn{
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .5s ease;
+    border: none;
+    border-radius: 5px;
+}
