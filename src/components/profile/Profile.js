@@ -1,9 +1,9 @@
 import React from 'react'
 import "./profile.css"
 
-const Profile = () => {
+const Profile = ({modal}) => {
     return (
-        <div className="profile">
+        <div className={modal ? "rofile" : "profile"}>
             <div className="profile__header">
                 <p>Profile</p>
                 <p>This is a public profile. Your Profile information will be visible to everyone, including visitors that are not following you.</p>

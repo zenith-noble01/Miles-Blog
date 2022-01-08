@@ -1,0 +1,102 @@
+.themes{
+    background: white;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.themes__tittle{
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+}
+
+.themes__tittle p{
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.themes-Header{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.themes__container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.theme{
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.theme > p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.ruby,
+.tangerine,
+.cinnamon,
+.flamingo,
+.bubblegum,
+.lilac,
+.iceberg,
+.denim,
+.blueberry,
+.pear,
+.spring,
+.pine,
+.brown,
+.black{
+    background: rgb(148, 40, 40);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.tangerin{
+    background: tan;
+}
+.cinnamon{
+    background: cyan;
+}
+.flamingo{
+    background: darkcyan;
+}
+.bubblegum{
+    background: blueviolet;
+}
+.lilac{
+    background: lightcyan;
+}
+.iceberg{
+    background: indianred;
+}
+.denim{
+    background: deeppink;
+}
+.blueberry{
+    background: burlywood;
+}
+.pear{
+    background: peru;
+}
+.spring{
+    background: springgreen;
+}
+.pine{
+    background: pink;
+}
+.brown{
+    background: brown;
+}
+.black{
+    background: rgb(10, 10, 10);
+    cursor: pointer;
+}

@@ -40,6 +40,9 @@
     background: none;
 }
 
+.active{
+    background: white;
+}
 /* {/* <Route path={`${path}/classes`}>
 <Classes />
 </Route> */

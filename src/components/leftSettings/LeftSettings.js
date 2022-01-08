@@ -1,19 +1,22 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "./leftsettings.css"
 
-const LeftSettings = () => {
+const LeftSettings = ({modal, setModal}) => {
     // const {path, url} = useRouteMatch()
     return (
         <div className="leftSettings">
             <li className="settingtList__item not">Account</li>
             <ul className="settingList">
-                <Link to="/setting/profile">
+                <NavLink to="/setting/profile">
                     <li className="settingtList__item">Profile</li>
-                </Link>
-                <li className="settingtList__item">Notification</li>
-                <Link to="/setting/authentication">
+                </NavLink>
+                <NavLink to="/setting/auth">
                     <li className="settingtList__item">Authentication</li>
-                </Link>
+                </NavLink>
+                <NavLink to="/setting/themes">
+                    <li className="settingtList__item">Themes</li>
+                </NavLink>
+                <li className="settingtList__item" onClick={() => setModal(!modal)}>Deactivate</li>
             </ul>
         </div>
     )

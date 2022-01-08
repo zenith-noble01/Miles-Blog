@@ -1,5 +1,8 @@
 .auth{
     width: 100%;
+    border-radius: 5px;
+    padding: 40px;
+    background: white;
 }
 
 .auth__header{

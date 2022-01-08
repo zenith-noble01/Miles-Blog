@@ -1,14 +1,29 @@
-import React from 'react'
-import "./rightsetting.css"
-import Auth from '../auth/Auth'
-import Profile from '../profile/Profile'
+import React from "react";
+import "./rightsetting.css";
+// import Profile from '../profile/Profile'
+import Modal from "../modal/Modal";
+import TobeSeen from "../Tobeseen/TobeSeen";
 
-const RightSetting = () => {
-    return (
-        <div className="rightSetting">
-            <Profile />
-        </div>
-    )
-}
+const RightSetting = ({ modal, setModal, profile, setProfile, Outlet }) => {
+  return (
+    <>
+      {modal ? (
+        <Modal
+          setModal={setModal}
+          modal={modal}
+          profile={profile}
+          setProfile={setProfile}
+        />
+      ) : (
+        ""
+      )}
+      <div className="rightSetting">
 
-export default RightSetting
+        <TobeSeen Outlet={Outlet} setProfile={setProfile} profile={profile} />
+        <Outlet />
+      </div>
+    </>
+  );
+};
+
+export default RightSetting;

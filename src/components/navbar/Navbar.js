@@ -7,7 +7,7 @@ const Navbar = ({user}) => {
     return (
         <div className="navbar">
             <div className="navbar__left">
-               <p>Miles Blog</p>
+               <p>Miles</p>
             </div>
             <div className="navbar__center">
                 <ul className="navbar__center__links">
